@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Título bonito 1</title>
+    <title>Título bonito</title>
     <meta name="author" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +23,7 @@ for ($i = 0; $i < $size; $i++) {
         if ($i % 2 === $j % 2) {
             echo "<td><img src='../assets/blanco.png'></td>";
         } else {
-            echo "<td><img src='../assets/negro.png'></td>";
+            echo "<td>-</td>";
         }
     }
 
@@ -34,6 +34,7 @@ echo "</table>";
 
 ?>
 </body>
+
 
 </html>
 
